@@ -1,0 +1,23 @@
+
+@media (max-width:768px) {
+    header {
+        width: 100%;
+    }
+    footer {
+        width: 100%;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3,1fr);
+    }
+    .sidebar {
+        
+        order: -1;
+        width: 100%;
+    }
+    .content {
+        width: 100%;
+    }
+}
